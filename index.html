@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Delight Learning</title>
+</head>
+<body>
+    <div id="page" class="site">
+        <!--Page 1-->
+        <header>
+            <div class="header">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="#"><img src="/images/image 1.png" alt=""></a>
+                    </div>
+            
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="content">    
+                    <div class="left">
+                        <div class="content1">
+                            <img src="/images/grreen leaf.PNG" alt="grreen leaf">
+                            <h1>Develop & practice <span>skills</span> that offer a lateral and vertical advancement in your <span>career.</span></h1>
+                            <p>We have varied courses at individual and enterprise-wide levels for competency development & skill enhancements,
+                               which enable you to meet current day challenges of project execution with confident.
+                            </p>
+                        </div>
+                        <div class="btn">
+                            <a href="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <input type="text" id="courses" placeholder="Search for a Course">
+                            <button id="searchBtn" onclick="searchCourses()">Search</button>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/images/pngwing.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Page 2-->
+        <main>
+            <div class="users">
+                <div class="box">
+                    <div class="vector"><img src="/images/Vector-3.png" alt="Vector-3" width="50" height="50"></div>
+                    <div class="members"><p><span>45+</span> Courses</p></div>
+                </div>
+
+                <div class="box">
+                    <div class="vector"><img src="/images/threeheads.PNG" alt="threeheads" width="50" height="50"></div>
+                    <div class="members"><p><span>20K+</span> Learners</p></div>
+                </div>
+                
+                <div class="box">
+                    <div class="vector">
+                        <img class="vector1" src="/images/Vector.png" alt="vector1">
+                        <img class="vector2" src="/images/Vector-2.png" alt="vector2">
+                        <img class="vector3" src="/images/Vector-1.png" alt="vector3">
+                    </div>
+                    <div class="members"><p><span>1250+</span> Trainings</p></div>
+                </div>
+            </div>
+
+            <div class="options">
+                <img src="/images/blue leaf.PNG" alt="blue">
+                <h1>Most Popular Courses</h1>
+                <div class="programs">
+                    <ul>
+                        <li><a href="">Devops Master<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">chaos of Theory</a></li>
+                                    <li><a href="#">collatz Conjection</a></li>
+                                    <li><a href="#">Split-Brain</a></li>
+                                </ul> 
+                            </div>       
+    
+                        </a></li>
+                        <li><a href="#">Online Training<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">chaos of Theory</a></li>
+                                    <li><a href="#">collatz Conjection</a></li>
+                                    <li><a href="#">Split-Brain</a></li>
+                                </ul> 
+                            </div>       
+                        </a></li>
+                        <li><a href="">United Kingdom<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">chaos of Theory</a></li>
+                                    <li><a href="#">collatz Conjection</a></li>
+                                    <li><a href="#">Split-Brain</a></li>
+                                </ul> 
+                            </div>       
+    
+                        </a></li>
+                        <li><a href="#">London<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">chaos of Theory</a></li>
+                                    <li><a href="#">collatz Conjection</a></li>
+                                    <li><a href="#">Split-Brain</a></li>
+                                </ul> 
+                            </div>       
+    
+                        </a></li>
+                        <li><a href="#">June<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">chaos of Theory</a></li>
+                                    <li><a href="#">collatz Conjection</a></li>
+                                    <li><a href="#">Split-Brain</a></li>
+                                </ul> 
+                            </div>       
+                        </a></li>
+                    </ul>
+                        <button type="submit" id="searchBtn">Go</button>
+                    </div>
+                </div>
+                
+                <div class="profile">
+                    <div class="devop">
+                        <img src="/images/Rectangle 10.png" alt="devops"/>
+                        <div class="devop-master">
+                            <p>Devops Master</p>
+                            <h3>$50</h3>
+                        </div>
+                        <hr>
+                        <div class="rating-info">
+                            <div class="rating-left">
+                                <img src="/images/Ellipse 12-1.png" alt="Alicia keys">
+                                <span>Alicia Keys</span>
+                            </div>
+                            <div class="rating">
+                                <div class="star">
+                                    <span>
+                                        &star;
+                                    </span>
+                                </div>
+                                <h3>4.5</h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="devop">
+                        <img src="/images/Rectangle 10.png" alt="devops"/>
+                        <div class="devop-master">
+                            <p>Devops Master</p>
+                            <h3>$50</h3>
+                        </div>
+                        
+                        <hr>
+                        <div class="rating-info">
+                            <div class="rating-left">
+                                <img src="/images/Ellipse 12-1.png" alt="Alicia keys">
+                                <span>Alicia Keys</span>
+                            </div>
+                            <div class="rating">
+                                <div class="star">
+                                    <span>
+                                        &star;
+                                    </span>
+                                </div>
+                                <h3>4.5</h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="devop">
+                        <img src="/images/Rectangle 10.png" alt="devops"/>
+                        <div class="devop-master">
+                            <p>Devops Master</p>
+                            <h3>$50</h3>
+                        </div>
+                        <hr>
+                        <div class="rating-info">
+                            <div class="rating-left">
+                                <img src="/images/Ellipse 12-1.png" alt="Alicia keys">
+                                <span>Alicia Keys</span>
+                            </div>
+                            <div class="rating">
+                                <div class="star">
+                                    <span>
+                                        &star;
+                                    </span>
+                                </div>
+                                <h3>4.5</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Page 3-->
+        <section>
+            <div class="about-us">
+                <div class="about-content">
+                    <div class="about-header">
+                        <h1>What our Learners say about</h1>
+                        <h2><span>DelightLearning</span></h2>
+                        <img src="/images/grreen leaf.PNG" alt="grreen leaf">
+                    </div>
+                    <div class="about-container">
+                        <div class="about-content2">
+                            <div class="about-sign">"</div>
+                            <p>The trainer conveyed scrum concepts engaging audience in discussions, providing real time examples across
+                                industries effectively.He was approachable and provided insights.
+                            </p>
+                            <div class="author">
+                                <div class="author-img"><img src="/images/Ellipse 12-2.png" alt="Neeraj Seth"></div>
+                                <h4>Neeraj Seth - Senior Executive, KPMG</h4>
+                            </div>
+                        </div>
+
+                        <div class="about-content2">
+                            <div class="about-sign">"</div>
+                            <p>A step towards understanding and implementing Scrum process framework across organzation.
+                                Thanks for delivering an insightful training and clearly stating what are 
+                                Do's and Don'ts of a Scrum Master.
+                            </p>
+                            <div class="author">
+                                <div class="author-img"><img src="/images/Ellipse 12-1.png" alt="Akanchha Sehgal"></div>
+                                <h4>Akanchha Sehgal - Program Director, Taisys</h4>
+                            </div>
+                        </div>
+
+                        <div class="about-content2">
+                            <div class="about-sign">"</div>
+                            <p>The trainer conveyed scrum concepts engaging audience in discussions, providing real time examples across
+                                industries effectively.He was approachable and provided insights.
+                            </p>
+                            <div class="author">
+                                <div class="author-img"><img src="/images/Ellipse 12.png" alt="Neeraj Seth"></div>
+                                <h4>Neeraj Seth - Senior Executive, KPMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="blog-header">
+                    <img src="/images/blue leaf.PNG" alt="blue leaf">
+                    <h1>Blog</h1>
+                </div>
+                <div class="blog-container">
+                    <div class="blog-illustration">
+                        <div class="blog-content">
+                            <div class="blog-img"><img src="/images/Frame 26.png" alt=""></div>
+                            <h1>GOOD BUT NOT GREAT.. OVERCOMING THE INDIAN</h1>
+                            <h5>Madhur Kathuria - 25 Sept, 2013</h5>
+                            <hr>
+                            <div class="blog-info">
+                                <p>Yes yes, umpteen authors have written kilos of pages debating on this topic and the anti-outsourcing doyens will be will be singing
+                                    paeans' one too many about how india and indians are so downmarket, quality haters and just take everything for granted...
+                                    This rumbling is not about what we already know about, this is about how we can change one and for all.
+                                 </p>
+                            </div>
+                        </div>
+
+                        <div class="blog-content">
+                            <div class="blog-img"><img src="/images/Frame 27.png" alt=""></div>
+                            <h1>THE PERSONAL AGILE MANIFESTO</h1>
+                            <h5>Madhur Kathuria - 8 Oct, 2013</h5>
+                            <hr>
+                            <div class="blog-info">
+                                <p>I did talk about Agile being a guiding philosophy rather than merely a framework for change in my past posts.</p>
+                            
+                                <p>The trigger to change is not only driven by the events at work place but also by the will.</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-content">
+                            <div class="blog-img"><img src="/images/Frame 28.png" alt=""></div>
+                            <h1>AN AGILE ENTERPRISE???</h1>
+                            <h5>Madhur Kathuria - 14 Jan, 2015</h5>
+                            <hr>
+                            <div class="blog-info">
+                                <p>I have been hearing from various associates about Agile being a target for 2015 in their organizations.
+                                    Program managers have been assigned to the task of managing the Agile transformation. Endless millions 
+                                    have been committed to 'certifying' the teams to be more Agile.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="training">
+                    <div class="training-container">
+                        <div class="training-header">
+                            <h1>Upcoming Trainings</h1>
+                        </div>
+    
+                        <div id="pspoContainer">
+                            <div class="PSPO-box">
+                                <p>PSPO (professional Scrum Product Owner)</p>
+                                <p>29th-31st July</p>
+                            </div>
+    
+                            <div class="PSPO-box">
+                                <p>PSPO (professional Scrum Product Owner)</p>
+                                <p>29th-31st July</p>
+                            </div>
+    
+                            <div class="PSPO-box">
+                                <p>PSPO (professional Scrum Product Owner)</p>
+                                <p>29th-31st July</p>
+                            </div>
+                        </div>
+    
+                        <div class="loading-dot">
+                            <a href="#slider-img-1" class="dot"></a>
+                            <a href="#slider-img-2" class="dot2"></a>
+                            <a href="#slider-img-3" class="dot2"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!--Page 4-->
+            <section class="library">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+               <h1>Library</h1>
+               <div class="library-container">
+                   <div class="library-content">
+                        <div class="vector"><img src="/images/Vector-5.png" alt="Vector-5"></div>
+                        <div class="members"><p>Corporate Brochure</p></div>
+                    </div> 
+
+                    <div class="library-content">
+                        <div class="vector"><img src="/images/Vector-4.png" alt="Vector-4"></div>
+                        <div class="members"><p>Courses Brochure</p></div>
+                    </div>
+                
+                    <div class="library-content">
+                        <div class="vector"><img src="/images/Vector-4.png" alt="Vector-4"></div>
+                        <div class="members"><p>Calender</p></div>
+                    </div>
+                </div>
+            </section>
+
+           <!--Page 5-->
+            <section class="subscribers">
+                <h1>Subscribe To Our NewsLetter</h1>
+                <div class="subscribers-content">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <button type="button" id="searchBtn">Subscribe</button>
+                </div>
+            </section>
+
+            <section class="workshop">
+                <img class="stripped1" src="/images/stripped rod.PNG" alt="stripped">
+                <div class="workshop-header">
+                    <h1>Our Awesome Workshop In <span>Your City</span></h1>
+                    <p>Waiting to hear from you Phone: +91 99084 96350, +91 86600 81352 Email: info@delightlearning.com</p>
+                </div>
+                <div class="workshop-btn">
+                    <button>
+                        Certified Scrum Master Workshops<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        Certified SAFe Agilist (Leading SAFe) Workshops<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        Devops Master Certification Training<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        PSM (Professional Scrum Master) Workshops<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        PSPO (Professional Scrum Product Owner) Workshops<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        Certified Scrum Product Owner Workshops<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        PMI-PMP Certification Training<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        PMI-ACP Certification Training<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        Certified Agile Coach Workshop ICP-ACC<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+
+                    <button>
+                        Advanced Certified Scrum Master<span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </button>
+                </div>
+                <img class="stripped2" src="/images/stripped rod.PNG" alt="stripped">
+            </section>
+
+            <!--footer section-->
+            <footer>
+                <div class="footer-top">
+                    <div class="foot-about-us">
+                        <h1>About Us</h1>
+                        <p>About the Company</p>
+                        <p>Clients</p>
+                        <p>Customers Speaks</p>
+                        <p>Industries Membership / Accredition</p>
+                    </div>
+    
+                    <div class="foot-links">
+                        <h1>Quick Links</h1>
+                        <p>Principal</p>
+                        <p>Our Blog</p>
+                        <p>SiteMap</p>
+                    </div>
+    
+                    <div class="foot-partner">
+                        <h1>Partner With Us</h1>
+                        <p>Become A Training Partner</p>
+                        <p>Become An Instructor</p>
+                        <p>Become An Affliate</p>
+                        <p>Blog As A Guest</p>
+                    </div>
+    
+                    <div class="foot-follow">
+                        <h1>Follow Us On</h1>
+                        <div class="follow-icons">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f fa-2xs"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter fa-2xs"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in fa-2xs"></i></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g fa-2xs"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="foot-text1">Refund / Reschedule | Privacy Policy</p>
+                    <hr>
+                    <p class="foot-text2">&copy; 2013-2022, Delight Learning Services and Consultancy. All Rights Reserved.</p>
+                    <p class="foot-text3">The Certification names are the trademarks of their respective owners. Disclaimers</p>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/ce72326b9b.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
